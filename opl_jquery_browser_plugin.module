@@ -1,0 +1,16 @@
+<?php
+
+/**
+ * @file
+ * Custom field formatters module
+ *
+ */
+
+/**
+ * Implements hook_init().
+ */
+
+function opl_jquery_browser_plugin_init() {
+  $path = drupal_get_path('module', 'opl_jquery_browser_plugin');
+  drupal_add_js($path . '/jquery.browser.js');
+}

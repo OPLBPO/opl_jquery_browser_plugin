@@ -1,0 +1,7 @@
+name = OPL Jquery Browser Plugin
+description = "Load of Jquery browser plugin to assist i15n client"
+package = OPL
+core = 7.x
+files[] = opl_jquery_browser_plugin.module
+scripts[] = jquery.browser.js
+project = "--OPL"
